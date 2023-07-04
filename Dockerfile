@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-FROM ghcr.io/graalvm/graalvm-community:17-ol8 as graalvm
+FROM ghcr.io/graalvm/native-image-community:17-ol8 as graalvm
 
 ## Build and native compile function
 WORKDIR /function
